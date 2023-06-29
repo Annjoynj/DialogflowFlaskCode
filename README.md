@@ -3,6 +3,7 @@
 This project is a webhook implementation for providing weather forecasts based on user queries. It integrates with the OpenWeatherMap API to retrieve weather data for a specific location.
 
 ## Getting Started
+Make sure you have ngrok installed in your PC
 
 ### Prerequisites
 
@@ -18,22 +19,19 @@ To run this application, you need to have the following installed:
   git clone <repository_url>
   
 2. Navigate to the project directory:
+   cd weather-forecast-webhook
 
-cd weather-forecast-webhook
-
-3. Install the required dependencies:
-pip install -r requirements.txt
+4. Install the required dependencies:
+    pip install -r requirements.txt
 
 ### Usage
 Set up your OpenWeatherMap API key:
 
-Sign up for a free account on OpenWeatherMap.
-Generate an API key from your account dashboard.
-Open the app.py file and replace <YOUR_API_KEY> in api_key variable with your actual OpenWeatherMap API key.
+1. Sign up for a free account on OpenWeatherMap.
+2. Generate an API key from your account dashboard.
+3. Open the app.py file and replace <YOUR_API_KEY> in api_key variable with your actual OpenWeatherMap API key.
 
 Start the Flask server:
-
-
 python app.py
 The server should be up and running locally at http://127.0.0.1:5000/.
 
