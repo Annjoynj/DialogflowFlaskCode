@@ -15,20 +15,16 @@ To run this application, you need to have the following installed:
 ### Installation
 
 1. Clone the repository:
+  git clone <repository_url>
+  
+2. Navigate to the project directory:
 
-   ```shell
-   git clone <repository_url>
-Navigate to the project directory:
-
-shell
-Copy code
 cd weather-forecast-webhook
-Install the required dependencies:
 
-shell
-Copy code
+3. Install the required dependencies:
 pip install -r requirements.txt
-Usage
+
+### Usage
 Set up your OpenWeatherMap API key:
 
 Sign up for a free account on OpenWeatherMap.
@@ -37,8 +33,7 @@ Open the app.py file and replace <YOUR_API_KEY> in api_key variable with your ac
 
 Start the Flask server:
 
-shell
-Copy code
+
 python app.py
 The server should be up and running locally at http://127.0.0.1:5000/.
 
@@ -56,20 +51,19 @@ Test the webhook by sending a POST request to http://127.0.0.1:5000/webhook with
 }
 Replace <CITY_NAME> with the desired location for the weather forecast.
 
-API Reference
+### API Reference
 Endpoints
 GET /: Returns "Hello World" to test if the server is running.
 POST /webhook: Accepts a JSON payload with the user query and returns a weather forecast based on the location.
-Error Handling
+
+### Error Handling
 If an error occurs during the webhook processing, a JSON response with an error message will be returned.
 
-Contributing
+### Contributing
 Contributions are welcome! If you have any suggestions or improvements, please create a pull request.
 
-License
+### License
 This project is licensed under the MIT License.
 
-vbnet
-Copy code
 
-Ensure to replace `<repository_url>` with the actual URL of your GitHub 
+
