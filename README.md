@@ -3,7 +3,7 @@
 This project is a webhook implementation for providing weather forecasts based on user queries. It integrates with the OpenWeatherMap API to retrieve weather data for a specific location.
 
 ## Getting Started
-Make sure you have ngrok installed in your PC
+
 
 ### Prerequisites
 
@@ -12,7 +12,8 @@ To run this application, you need to have the following installed:
 - Python (version 3.6 or higher)
 - Flask (install using `pip install flask`)
 - Requests (install using `pip install requests`)
-
+- Make sure you have ngrok installed in your PC
+  
 ### Installation
 
 1. Clone the repository:
